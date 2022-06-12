@@ -20,7 +20,7 @@ function Sidebar() {
 
                 <SidebarRow Icon={DotsCircleHorizontalIcon} title="More" />
             </div>
-            <div className='absolute bottom-0 w-full flex justify-around bg-white md:hidden col-span-2 items-center px-4'>
+            <div className='fixed bottom-0 w-full flex justify-around bg-white md:hidden col-span-2 items-center px-4'>
                 <SidebarRow Icon={HomeIcon} title="Home" />
                 <SidebarRow Icon={BellIcon} title="Notifications" />
                 <SidebarRow Icon={MailIcon} title="Messages" />
