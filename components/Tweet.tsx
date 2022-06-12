@@ -12,8 +12,6 @@ interface Props {
 
 function Tweet({ tweet }: Props) {
 
-    console.log(tweet._id);
-
     const [comments, setComments] = useState<Comment[]>([])
     const { data: session } = useSession()
 
