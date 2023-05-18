@@ -13,7 +13,7 @@ function Widgets() {
 
             <TwitterTimelineEmbed
                 sourceType="profile"
-                screenName="thebeen_"
+                screenName="mazzini_gsp"
                 options={{ height: 1000 }}
             />
         </div>
